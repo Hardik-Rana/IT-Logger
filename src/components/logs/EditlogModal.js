@@ -3,6 +3,7 @@ import M from 'materialize-css/dist/js/materialize.min.js'
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { updateLog } from '../../actions/logActions';
+import TechSelectOptions from '../techs/TechSelectOptions';
 
 const EditlogModal = ({current,updateLog}) => {
 
@@ -59,9 +60,7 @@ const EditlogModal = ({current,updateLog}) => {
                 <div className="input-field">
                     <select name="tech" value={tech} className='browser-default' onChange={e=>setTech(e.target.value)}>
                     <option value="" disabled>Select Technician</option>
-                    <option value="Hardik">Hardik</option>
-                    <option value="Rana">Rana</option>
-                    <option value="Manan">Manan</option>
+                   <TechSelectOptions/>
                     </select>
                 </div>
             </div>

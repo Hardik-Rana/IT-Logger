@@ -3,47 +3,35 @@
     {
       "id": "1",
       "message": "Changed hard drive on workstation 005",
-      "attention": false,
-      "date": "2022-02-22",
-      "tech": "Sam Smith"
+      "attention": true,
+      "tech": "Rana Hardik",
+      "date": "2022-03-01T00:52:44.991Z"
     },
     {
       "id": "2",
       "message": "Workstation 007 not posting",
-      "attention": true,
-      "date": "2022-02-22",
-      "tech": "John Doe"
+      "attention": false,
+      "tech": "Rana Hardik",
+      "date": "2022-03-01T01:34:46.120Z"
     },
     {
       "id": "3",
       "message": "Changed memory on workstation 050",
       "attention": false,
-      "date": "2022-02-22",
-      "tech": "Sara Wilson"
-    },
-    {
-      "id": "eO-MwdC",
-      "message": "Test System failed",
-      "attention": true,
-      "tech": "Rana",
-      "date": "2022-02-28T23:24:18.438Z"
+      "tech": "Rana Hardik",
+      "date": "2022-03-01T01:34:40.658Z"
     }
   ],
   "techs": [
     {
-      "firstName": "Sam",
-      "lastName": "Smith",
-      "id": "2"
-    },
-    {
-      "firstName": "Sara",
-      "lastName": "Wilson",
-      "id": "3"
-    },
-    {
       "firstName": "Rana",
       "lastName": "Hardik",
       "id": "bz2ngI3"
+    },
+    {
+      "firstName": "Changan",
+      "lastName": "Magan",
+      "id": "CkNK5HU"
     }
   ]
 }
